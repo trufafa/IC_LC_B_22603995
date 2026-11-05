@@ -24,7 +24,7 @@ while(has_selected_3 == False):
         worst_map = "PLACEHOLDER"
         classification = "PLACEHOLDER"
         for map in mapas:
-            print("Partida " + str(index) + ": " + map + " - " + str(pontos[index]))
+            print("Partida " + str(index + 1) + ": " + map + " - " + str(pontos[index]))
             if(pontos[index] < worst_points):
                 worst_points = pontos[index]
                 worst_map = map
@@ -41,10 +41,18 @@ while(has_selected_3 == False):
         print("Pior pontuação: " + worst_map + " (" + str(worst_points) + " pontos)")
         print("Classificação: " + classification)
     elif(selected_opt == str(2)):
-        if (len(mapas) < MAX_PARTIDAS):
+        if (len(mapas) > MAX_PARTIDAS):
+            print("Limite atingido.")
+        else:
             new_map = input("Insira o mapa que deseja registar: ")
             mapas.append(new_map)
-            new_points = input("Insira a pontuação obtida: ")
+            print("Mapa: " + new_map)
+            new_points = int(input("Insira a pontuação obtida: "))
+            while(new_points > PONTOS_MAXIMOS):
+                print("Pontuação: " + str(new_points))
+                print("Pontos inválidos. Tente novamente.")
+                new_points = int(input("Insira a pontuação obtida: "))
             pontos.append(new_points)
-        else:
-            print("Limite atingido.")
+            print("Pontuação: " + str(new_points))
+            print("Partida registada.")
+            
