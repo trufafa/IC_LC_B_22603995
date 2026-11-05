@@ -10,6 +10,7 @@ while(has_selected_3 == False):
     print("1 - Ver estatísticas")
     print("2 - Registar partida")
     print("3 - Sair")
+    print("4 - Apagar partida")
 
     selected_opt = input("Selecione a opção desejada: ")
     if(selected_opt == str(3)):
@@ -17,6 +18,9 @@ while(has_selected_3 == False):
         print("Até à próxima partida!")
         break
     elif(selected_opt == str(1)):
+        if(len(mapas) == 0):
+            print("Ainda não há partidas.")
+            break
         addition = 0
         median = 0
         index = 0
@@ -30,7 +34,7 @@ while(has_selected_3 == False):
                 worst_map = map
             addition += pontos[index]
             index += 1
-        median = addition // 2
+        median = addition // len(mapas)
         if(median < 50):
             classification = "Novato"
         elif(median >= 50 and median < 75):
@@ -40,6 +44,8 @@ while(has_selected_3 == False):
         print("Média: " + str(median))
         print("Pior pontuação: " + worst_map + " (" + str(worst_points) + " pontos)")
         print("Classificação: " + classification)
+        print("Últimas três pontuações: " + str(pontos[-3:]))
+        print("Pontuações de trás para a frente: " + str(pontos[::-1]))
     elif(selected_opt == str(2)):
         if (len(mapas) > MAX_PARTIDAS):
             print("Limite atingido.")
@@ -55,4 +61,21 @@ while(has_selected_3 == False):
             pontos.append(new_points)
             print("Pontuação: " + str(new_points))
             print("Partida registada.")
-            
+    elif(selected_opt == str(4)):
+        if(len(mapas) == 0):
+            print("Ainda não há partidas.")
+            break
+        index = 0
+        for map in mapas:
+                    print("Partida " + str(index + 1) + ": " + map + " - " + str(pontos[index]))
+                    index += 1
+        discarded_map = int(input("Selecione a partida que deseja apagar: "))
+        while(discarded_map > index or discarded_map <= 0):
+            discarded_map = int(input("Índice Inválido. Tente novamente: "))
+        mapas.pop(discarded_map - 1)
+        pontos.pop(discarded_map - 1)
+        print("Partida apagada. Lista atualizada de partidas: ")
+        index = 0
+        for map in mapas:
+                            print("Partida " + str(index + 1) + ": " + map + " - " + str(pontos[index]))
+                            index += 1
