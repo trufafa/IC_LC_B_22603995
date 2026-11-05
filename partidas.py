@@ -14,9 +14,18 @@ while(has_selected_3 == False):
     selected_opt = input("Selecione a opção desejada: ")
     if(selected_opt == str(3)):
         has_selected_3 = True
+        print("Até à próxima partida!")
         break
     elif(selected_opt == str(1)):
-        False
+        addition = 0
+        median = 0
+        index = 0
+        for map in mapas:
+            print("Partida " + str(index) + ": " + map + " - " + str(pontos[index]))
+            addition += pontos[index]
+            index += 1
+        median = addition // 2
+        print("Média: " + str(median))
     elif(selected_opt == str(2)):
         if (len(mapas) < MAX_PARTIDAS):
             new_map = input("Insira o mapa que deseja registar: ")
