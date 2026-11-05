@@ -1,0 +1,500 @@
+   32  mkdir Monsters
+   33  ls
+   34  cd ..
+   35  ls
+   36  ls
+   37  cd weapons
+   38  ls
+   39  mv Monsters/ ..
+   40  ls
+   41  cd ..
+   42  ls
+   43  mv Feral_Ghoul.txt Monsters/
+   44  cd Monsters/
+   45  cd ..
+   46  ls
+   47  rm Wampa.txt 
+   48  ls
+   49  less
+   50  less --help
+   51  less long-entry.txt 
+   52  less long-entry.txt /pattern
+   53  less long-entry.txt /pattern Pip-Boy
+   54  less long-entry.txt /pattern Pip-Boy
+   55  less --help
+   56  less long-entry.txt &pattern Pip-Boy
+   57  less long-entry.txt &pattern Pip-Boy
+   58  less /"Pip-Boy" n
+   59  less long-entry.txt /"Pip-Boy" n
+   60  less -ppattern "Pip-Boy"
+   61  less -ppattern long-entry.txt "Pip-Boy"
+   62  less -ppattern long-entry.txt Pip-Boy
+   63  less /pattern long-entry.txt Pip-Boy
+   64  less long-entry.txt '"Pip-Boy"'
+   65  less long-entry.txt /pattern Pip-Boy
+   66  less long-entry.txt /pattern Pip-Boy
+   67  less long-entry.txt /pattern Pip-Boy
+   68  less long-entry.txt /pattern Pip-Boy
+   69  touch
+   70  touch --help
+   71  touch #!/bin/bash
+   72  touch praticaScript.sh
+   73  ls
+   74  echo #!/bin/bash
+   75  ls
+   76  cat praticaScript.sh 
+   77  echo #! /bin/bash
+   78  echo #! /bin/bash > # O objetivo deste script é imprimir uma mensagem particular, e de seguida listar os ficheiros atuais
+   79  >> print '"War never changes. My name is..."'
+   80  >> echo '"War never changes. My name is..."'
+   81  cat praticaScript.sh 
+   82  cat echo 
+   83  echo "#! /bin/bash
+   84  # O objetivo deste script é imprimir uma mensagem particular, e de seguida, listar os ficheiros na pasta atual.
+   85  >> echo "War never changes. My name is..."
+   86  >> ls
+   87  cat praticaScript.sh 
+   88  echo #!bin/bash
+   89  echo ´"#! bin/bash
+   90  # O objetivo deste script é imprimir uma mensagem particular, e de seguida, listar os ficheiros na pasta atual
+   91  echo "War never changes. My name is..."
+   92  ls" > praticaScript.sh
+   93  cat praticaScript.sh 
+   94  rm praticaScript.sh 
+   95  ls
+   96  rm echo
+   97  rm print
+   98  touch scriptPraticaIC.sh
+   99  ls
+  100  echo #!/bin/bash > scriptPraticaIC.sh
+  101  echo > # O propósito deste script é imprimir uma mensagem particular, e de seguida mostrar a data e hora atual.
+  102  echo # O propósito deste script é imprimir uma mensagem particular, e de seguida mostrar a data e hora atual. > scriptPraticaIC.sh 
+  103  cat scriptPraticaIC.sh 
+  104  echo "#! /bin/bash" > scriptPraticaIC.sh
+  105  cat scriptPraticaIC.sh 
+  106  rm scriptPraticaIC.sh 
+  107  touch scriptPraticaIC.sh
+  108  echo '#!/bin/bash' > scriptPraticaIC.sh 
+  109  cat scriptPraticaIC.sh 
+  110  echo '# O objetivo deste script é imprimir uma mensagem particular, e de seguida, mostrar a data e hora atual.' >> scriptPraticaIC.sh 
+  111  cat scriptPraticaIC.sh 
+  112  echo 'echo \"War never changes. My name is...\"' >> scriptPraticaIC.sh 
+  113  echo 'date' >> scriptPraticaIC.sh 
+  114  cat scriptPraticaIC.sh 
+  115  rm scriptPraticaIC.sh 
+  116  touch scriptPraticaIC.sh
+  117  echo '#!/bin/bash' > scriptPraticaIC.sh 
+  118  echo '# O objetivo deste script é imprimir uma mensagem particular e de seguida mostrar a data e hora atual.'
+  119  cat scriptPraticaIC.sh 
+  120  echo '# O objetivo deste script é imprimir uma mensagem particular e de seguida mostrar a data e hora atual.' >> scriptPraticaIC.sh 
+  121  cat scriptPraticaIC.sh 
+  122  echo 'echo "War never changes. My name is..."' > scriptPraticaIC.sh 
+  123  cat scriptPraticaIC.sh 
+  124  echo '#!/bin/bash' > scriptPraticaIC.sh 
+  125  echo '# O objetivo deste script é imprimir uma mensagem particular e de seguida mostrar a data e hora atual.' >> scriptPraticaIC.sh 
+  126  echo 'echo "War never changes. My name is..."' >> scriptPraticaIC.sh 
+  127  cat scriptPraticaIC.sh 
+  128  echo 'date' >> scriptPraticaIC.sh 
+  129  cat scriptPraticaIC.sh 
+  130  bash scriptPraticaIC.sh 
+  131  ls
+  132  cat short.txt 
+  133  cd ..
+  134  bash scriptPraticaIC.sh
+  135  chmod 777 scriptPratica.sh
+  136  cd .
+  137  cd fallout/
+  138  chmod 777 scriptPratica.sh
+  139  ls
+  140  chmod 777 scriptPraticaIC.sh
+  141  cd ..
+  142  bash scriptPraticaIC.sh
+  143  python -i
+  144  python
+  145  python
+  146  git config
+  147  git config --global
+  148  git config --global user.name "Mafalda Pinto"
+  149  git config --global user.email "illmakeitworkthistime@gmail.com"
+  150  git config --list
+  151  cd Documents/Cosmic\ Liberation\ Front
+  152  git init
+  153  git add .
+  154  git commit -m "First commit."
+  155  git status
+  156  git log
+  157  git branch -m
+  158  git branch -m "main"
+  159  cd Desktop
+  160  cd ..
+  161  cd ..
+  162  cd Desktop
+  163  pwd
+  164  ls
+  165  Documents
+  166  cd Documents/
+  167  mkdir IC
+  168  cd IC/
+  169  mkdir Git
+  170  cd Git
+  171  git init
+  172  git add .gitignore
+  173  git add .
+  174  git refresh
+  175  git reset
+  176  ls
+  177  git status
+  178  git add .gitignore
+  179  git add gitignore 
+  180  git commit -m "My First Commit"
+  181  git status
+  182  git add gitattributes 
+  183  git commit -m "My Second Commit"
+  184  git status
+  185  git log
+  186  git log --pretty=format:"%h - %an, %ar : %s"
+  187  git remote add origin github.com/trufafa/Aulas_IC
+  188  git remote add origin https://github.com/trufafa/Aulas_IC.git
+  189  git remove remove origin
+  190  git remote remove origin
+  191  git remote add origin https://github.com/trufafa/Aulas_IC.git
+  192  git branch -M main
+  193  git push -u origin main
+  194  git touch test_file.txt
+  195  touch test_file.txt
+  196  ls
+  197  git add test_file.txt 
+  198  git commit -m "Added txt File to Repository"
+  199  git push
+  200  cd ..
+  201  mkdir ic-git-exercicio
+  202  git init
+  203  touch README.md
+  204  git status
+  205  mv README.md ic-git-exercicio/
+  206  cd ic-git-exercicio/
+  207  ls
+  208  git add README.md
+  209  git status
+  210  git commit -m "Cria README incial"
+  211  git status
+  212  cd ..
+  213  ls
+  214  rmdir Git/
+  215  git status
+  216  git remote add origin https://github.com/trufafa/ic-git-exercicio.git
+  217  git branch -m main
+  218  git push -u origin main
+  219  git status
+  220  git diff
+  221  cd ic-git-exercicio/
+  222  git add README.md 
+  223  git status
+  224  git commit -m "Adiciona funcionalidades ao README"
+  225  git push
+  226  touch NOTAS.txt
+  227  git mv NOTAS.txt APONTAMENTOS.txt
+  228  git status
+  229  git mv NOTAS.txt APONTAMENTOS.txt
+  230  git add NOTAS.txt 
+  231  git commit -m "Adicionou Ficheiro NOTAS.txt"
+  232  git push
+  233  git mv NOTAS.txt APONTAMENTOS.txt
+  234  git status
+  235  git add APONTAMENTOS.txt 
+  236  git commit -m "Renomeou NOTAS.txt para APONTAMENTOS.txt"
+  237  git push
+  238  git rm APONTAMENTOS.txt 
+  239  git add .
+  240  git status
+  241  git commit -m "Removeu APONTAMENTOS.txt"
+  242  git push
+  243  git log
+  244  cd ..
+  245  mkdir pasta-clone
+  246  cd pasta-clone/
+  247  git clone https://github.com/trufafa/ic-git-exercicio/tree/main/ic-git-exercicio
+  248  git clone https://github.com/trufafa/ic-git-exercicio/.git
+  249  git clone https://github.com/trufafa/ic-git-exercicio/tree/main
+  250  git clone https://github.com/trufafa/ic-git-exercicio
+  251  ls
+  252  cd ic-git-exercicio/
+  253  git log --oneline
+  254  git status
+  255  ls
+  256  cd ic-git-exercicio/
+  257  ls
+  258  git status
+  259  git add README.md 
+  260  git commit -m "Adicionou Secção O que aprendi"
+  261  git status
+  262  git add
+  263  git add README.md 
+  264  git status
+  265  git push
+  266  git commit -m "Adicionou Secção O que aprendi"
+  267  git push
+  268  cd ..
+  269  cd ..
+  270  cd ..
+  271  cd ic-git-exercicio/
+  272  ls
+  273  git pull
+  274  git stash
+  275  git pull
+  276  git add README.md 
+  277  git status
+  278  git commit -m "Alterou o Título Inicial do README.md"
+  279  git push
+  280  cd Documents
+  281  cd .. Documents
+  282  cd ..
+  283  cd ..
+  284  cd IC
+  285  cd pasta-clone/
+  286  cd ic-git-exercicio/
+  287  cd ic-git-exercicio/
+  288  git add README.md 
+  289  git commit -m "Alterou Nome da Cópia do README.md para testar conflitos"
+  290  git push
+  291  git pull
+  292  git status
+  293  git add README.md 
+  294  git commit -m "Resolve conflito no README"
+  295  git push
+  296  cd
+  297  cd Documents/
+  298  cd IC
+  299  git status
+  300  git add .
+  301  git reset
+  302  cd ic-git-exercicio/
+  303  ls
+  304  git status
+  305  git add README.md 
+  306  git commit
+  307  git status
+  308  git push
+  309  git reset
+  310  git pull
+  311  git stash
+  312  git pull
+  313  cd 
+  314  cd Documents/
+  315  cd IC
+  316  git status
+  317  git add pasta-clone/
+  318  ls
+  319  cd pasta-clone/
+  320  cd ic-git-exercicio/
+  321  git status
+  322  cd Downloads/
+  323  [200~git clone https://github.com/rafaeldavidjose/IC_aula_8_P_exercicios.git
+  324  git clone https://github.com/rafaeldavidjose/IC_aula_8_P_exercicios.git
+  325  cd IC_aula_8_P_exercicios
+  326  git remote set-url origin https://github.com/trufafa/ic-pratica-8.git
+  327  git remote -v
+  328  git lfs install
+  329  git lfs track "*.png"
+  330  git add .gitattributes
+  331  git lfs migrate import --everything
+  332  git status
+  333  git add .gitattributes 
+  334  git commit -m "Criou .gitattributes e Fez large_image.png Ponteiro LFS"
+  335  git pull --rebase origin main
+  336  git ls-remote --branches origin
+  337  git rebase origin/main
+  338  git checkout --theirs assets/large_image.png
+  339  git add README.md README_modelo.md assets/large_image.png
+  340  git rebase --continue
+  341  git status
+  342  git commit -m "Criou .gitattributes e Fez large_image.png Ponteiro LFS"
+  343  git merge
+  344  git add .
+  345  git commit -m "Criou .gitattributes e Fez large_image.png Ponteiro LFS"
+  346  git push origin HEAD
+  347  git push
+  348  git push origin HEAD:<main>
+  349  git push origin HEAD:main
+  350  git clone https://github.com/rafaeldavidjose/IC_aula_8_P_exercicios.git
+  351  cd IC_aula_8_P_exercicios
+  352  git remote set-url origin https://github.com/trufafa/ic-pratica-8.git
+  353  git remote -v
+  354  git lfs install
+  355  git lfs migrate import --everything
+  356  git lfs track "*.png"
+  357  git add .gitattributes
+  358  git push -u origin main
+  359  git branch feat_1
+  360  git add README.md README_modelo.md 
+  361  git add README.md README_modelo.md 
+  362  git status
+  363  git commit -m "Atualizou ficheiro README_modelo.md com informação pessoal"
+  364  git switch feat_1 
+  365  git switch main
+  366  git reset
+  367  git status
+  368  git switch feat_1
+  369  git add README.md README_modelo.md 
+  370  git commit -m "Atualizou ficheiro README_modelo.md com informação pessoal"
+  371  git merge main
+  372  git branch
+  373  git status
+  374  git pull
+  375  git switch main
+  376  git pull
+  377  git push
+  378  git add README.md
+  379  git status
+  380  git add README.md
+  381  git status
+  382  git add README.md
+  383  git status
+  384  git add .
+  385  git status
+  386  git add README.md 
+  387  git status
+  388  git commit -m "Arranjou ficheiro README.md quebrado de tentativa prévia"
+  389  git push
+  390  git clone https://github.com/rafaeldavidjose/IC_aula_8_P_exercicios.git
+  391  cd IC_aula_8_P_exercicios
+  392  git remote set-url origin https://github.com/trufafa/ic-pratica-8.git
+  393  git remote v
+  394  git remote -v
+  395  git install lfs
+  396  git lfs install
+  397  git lfs track "*.png"
+  398  git lfs migrate import --everything
+  399  git status
+  400  git lfs ls-files
+  401  git lfs --help
+  402  git push -u origin main
+  403  git branch feat_1
+  404  git switch feat_1
+  405  git switch main
+  406  git lfs untrack "*.md"
+  407  git push
+  408  git pull
+  409  git add .gitattributes
+  410  git commit -m "Stop tracking .md files with Git LFS"
+  411  git push
+  412  git clone https://github.com/rafaeldavidjose/IC_aula_8_P_exercicios.git
+  413  cd IC_aula_8_P_exercicios
+  414  git remote set-url origin https://github.com/trufafa/ic-pratica-8
+  415  git remote -v
+  416  git lfs install
+  417  git lfs track "*.png"
+  418  cat .gitattributes 
+  419  git lfs migrate --include
+  420  git lfs migrate --include "*.png"
+  421  git lfs migrate --include "*.png"
+  422  git lfs migrate import --include "*.png"
+  423  git lfs ls-files
+  424  git push -u origin main
+  425  git branch feat_1
+  426  git switch feat_1 
+  427  git add README_modelo.md
+  428  git status
+  429  git commit -m "Adicionei informação pessoal ao README_modelo.md"
+  430  git push -u origin feat_1
+  431  git switch main
+  432  git status
+  433  git pull
+  434  git branch fix_1
+  435  git status
+  436  git switch fix_1
+  437  git add README_modelo.md 
+  438  git commit -m "Alterei o README_modelo.md com uma linha adicional"
+  439  git switch main
+  440  git add README_modelo.md 
+  441  git commit -m "Alterei o README_modelo.md na main"
+  442  git push
+  443  git switch fix_1
+  444  git rebase
+  445  git rebase main
+  446  git rebase main
+  447  git rebase --continue
+  448  git add README_modelo.md
+  449  git rebase --continue
+  450  git push
+  451  git push -u origin fix_1
+  452  git switch main
+  453  touch new_file.txt
+  454  ls
+  455  git add new_file.txt 
+  456  git commit -m "Criei ficheiro new_file.txt"
+  457  git push
+  458  git add new_file.txt 
+  459  git diff
+  460  git log
+  461  git diff new_file.txt
+  462  git restore new_file.txt 
+  463  git log new_file.txt
+  464  git status
+  465  git restore --staged new_file.txt 
+  466  git restore
+  467  git restore new_file.txt 
+  468  touch test_file.txt
+  469  git add test_file.txt 
+  470  git status
+  471  git commit -m "Criei test_file.txt"
+  472  git status
+  473  git rm test_file.txt 
+  474  git status
+  475  git add .
+  476  git status
+  477  git commit -m "Removi test_file.txt"
+  478  git push
+  479  git remote -v
+  480  git pull
+  481  git branch exerc_7
+  482  git switch exerc_7 
+  483  git lfs ls-track
+  484  git lfs ls-files
+  485  git add assets/.
+  486  git lfs ls-files
+  487  git commit -m "Adicionei ficheiro .png na pasta assets"
+  488  git switch main
+  489  git add README.md 
+  490  git commit -m "Fiz Alteração no README.md na Main"
+  491  git switch exerc_7 
+  492  git rebase
+  493  git rebase main
+  494  git switch main
+  495  git switch exerc_7 
+  496  git push -u origin exerc_7 
+  497  git switch main
+  498  git merge exerc_7 
+  499  git push
+  500  cd
+  501  cd Desktop
+  502  cd Downloads/
+  503  mkdir IC_LC_B_22603995
+  504  cd IC_LC_B_22603995/
+  505  mkdir Git
+  506  cd Git
+  507  git init
+  508  git remote add origin https://github.com/trufafa/IC_LC_B_22603995
+  509  git branch -M main
+  510  touch preparar.sh
+  511  echo preparar.sh > #!/bin/bash
+  512  echo preparar.sh > #! /bin/bash
+  513  chmod777 preparar.sh 
+  514  rm preparar.sh 
+  515  ls
+  516  echo preparar.sh > #!/bin/bash
+  517  echo preparar.sh > #!/bin/bash
+  518  echo '#!/bin/bash' > preparar.sh
+  519  echo 'date' >> preparar.sh
+  520  echo 'touch README.md' >> preparar.sh
+  521  echo 'touch partidas.py' >> preparar.sh
+  522  echo 'ls' >> preparar.sh
+  523  cat preparar.sh 
+  524  chmod777 preparar.sh 
+  525  chmod 777 preparar.sh 
+  526  ./preparar.sh 
+  527  ls
+  528  git add .
+  529  git commit -m "Created preparar.sh script"
+  530  git push -u origin main
+  531  history > historico.txt
