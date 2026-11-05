@@ -77,5 +77,5 @@ while(has_selected_3 == False):
         print("Partida apagada. Lista atualizada de partidas: ")
         index = 0
         for map in mapas:
-                            print("Partida " + str(index + 1) + ": " + map + " - " + str(pontos[index]))
-                            index += 1
+            print("Partida " + str(index + 1) + ": " + map + " - " + str(pontos[index]))
+            index += 1
